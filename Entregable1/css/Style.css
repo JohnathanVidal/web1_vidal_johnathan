@@ -50,7 +50,7 @@ header {
   padding: 0;
 }
 
-/* Botones efecto glass */
+/* Botones con efecto glass */
 .nav-header a {
   text-decoration: none;
   color: white;
@@ -67,7 +67,7 @@ header {
 /* Hover */
 .nav-header a:hover {
   background: rgba(200, 200, 200, 0.6);
-  /* gris translúcido */
+  /* gris como translúcido */
   color: #000;
 }
 
@@ -80,7 +80,7 @@ section {
   width: 100%;
   height: 100%;
   align-items: center;
-  background: url(/Entregable1/img/fondo.jpg);
+  background-image: url("/Entregable1/img/fondo.jpg");
 }
 
 section a h2 {
@@ -301,6 +301,9 @@ footer {
     height: 100vh;
   }
 
+  aside{
+    background: linear-gradient(135deg, gold,black);
+  }
   .nav-header a {
     text-decoration: none;
     color: white;
