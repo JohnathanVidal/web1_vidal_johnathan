@@ -71,13 +71,6 @@ header {
   color: #000;
 }
 
-/* NAV */
-.nav {
-  grid-area: nav;
-  background-color: aliceblue;
-}
-
-
 /* SECTION */
 section {
   /* background: rgb(151, 151, 151); */
