@@ -31,17 +31,15 @@ header {
   background: linear-gradient(135deg, #000000, #747272);
   color: white;
   border-radius: 0 0 20px 20px;
-  /* curvas abajo */
 }
 
-/* Logo */
 #logo h1 {
   font-size: 22px;
   font-weight: bold;
   margin: 0;
 }
 
-/* Navegación */
+
 .nav-header ul {
   display: flex;
   gap: 15px;
@@ -50,7 +48,6 @@ header {
   padding: 0;
 }
 
-/* Botones con efecto glass */
 .nav-header a {
   text-decoration: none;
   color: white;
@@ -59,21 +56,17 @@ header {
   padding: 4px 10px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.15);
-  /* efecto glass */
   backdrop-filter: blur(6px);
   transition: all 0.3s ease;
 }
 
-/* Hover */
 .nav-header a:hover {
   background: rgba(200, 200, 200, 0.6);
-  /* gris como translúcido */
   color: #000;
 }
 
 /* SECTION */
 section {
-  /* background: rgb(151, 151, 151); */
   font-size: 25px;
   grid-area: section;
   display: flex;
@@ -87,20 +80,16 @@ section a h2 {
   font-family: Arial, Helvetica, sans-serif;
   justify-content: space-between;
   color: white;
-  /* font-size: 8px;
-    font-weight: 500; */
   text-decoration: none;
   padding: 4px 10px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.15);
-  /* efecto glass */
   backdrop-filter: blur(6px);
   transition: all 0.3s ease;
 }
 
 section a h2:hover {
   background: rgba(200, 200, 200, 0.6);
-  /* gris translúcido */
   color: #3a3434;
 }
 
@@ -122,7 +111,6 @@ section img:hover {
 }
 
 /* ASIDE */
-
 aside {
   grid-area: aside;
   background-color: black;
@@ -190,7 +178,6 @@ aside .personal-info li strong {
   object-fit: cover;
   border: 3px solid rgb(255, 0, 0);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
-  /* sombra suave */
 }
 
 /* FOOTER */
@@ -204,7 +191,6 @@ footer {
   position: relative;
   width: 100%;
   background: #000000;
-  /* min-height: 100px; */
   padding: 8px 15px;
   display: flex;
   justify-content: center;
@@ -247,7 +233,7 @@ footer {
   font-size: 20px;
 }
 
-/*CELULARES*/
+/* VISTA PARA CELULARES*/
 @media (max-width: 480px) {
   #contenedor {
     grid-template-areas:
@@ -285,11 +271,10 @@ footer {
 }
 
 
-/* tablet */
+/* VISTA PARA TABLETS */
 @media (min-width: 481px) and (max-width: 768px) {
   #contenedor {
     background: gray;
-    /* 4 fila 2 columnas */
     grid-template-areas:
       "header"
       "section"
@@ -312,7 +297,6 @@ footer {
     font-weight: 500;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.15);
-    /* efecto glass */
     backdrop-filter: blur(6px);
     transition: all 0.3s ease;
   }
@@ -328,8 +312,7 @@ footer {
 
 }
 
-/* laptop */
-
+/* VISTA PARA LAPTOP */
 @media (min-width: 769px) and (max-width: 1024px) {
   #contenedor {
     background: white;
@@ -352,7 +335,6 @@ footer {
     padding: 8px 15px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.15);
-    /* efecto glass */
     backdrop-filter: blur(6px);
     transition: all 0.3s ease;
   }
@@ -362,7 +344,7 @@ footer {
   }
 }
 
-
+/* VISTA PARA PC UN POCO MÁS GRANDE */
 @media (min-width: 1025px) {
   #contenedor {
     background: white;
@@ -385,7 +367,6 @@ footer {
     padding: 10px 18px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.15);
-    /* efecto glass */
     backdrop-filter: blur(6px);
     transition: all 0.3s ease;
   }
